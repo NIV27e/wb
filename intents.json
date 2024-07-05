@@ -12,35 +12,51 @@
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hello, thanks for visiting Watcho",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
+        "See you later, thanks for visiting Watcho",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Do you sell watches?",
+        "What types of watches do you have?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell a variety of watches, including luxury watches, sports watches, and casual watches.",
+        "Our collection includes luxury watches, sports watches, and more.",
+        "We offer a wide range of watches for every occasion."
       ]
     },
     {
@@ -52,7 +68,7 @@
         "Are you cash only?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
+        "We accept VISA, Mastercard, and Paypal",
         "We accept most major credit cards, and Paypal"
       ]
     },
@@ -64,8 +80,8 @@
         "When do I get my delivery?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Delivery typically takes 2-4 days.",
+        "Shipping usually takes 2-4 days."
       ]
     },
     {
@@ -78,6 +94,73 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "recommend_watch",
+      "patterns": [
+        "Can you recommend a watch?",
+        "Which watch should I buy?",
+        "Help me choose a watch",
+        "I need a watch for a gift",
+        "What's a good watch for sports?",
+        "What's a good watch for a formal event?"
+      ],
+      "responses": [
+        "Sure, are you looking for a luxury, sports, or casual watch?",
+        "I can help with that. Do you have any specific features in mind?",
+        "We have a great selection for gifts. Do you have a budget in mind?",
+        "For sports, I recommend our sports watch collection with features like water resistance and durable materials.",
+        "For formal events, our luxury watches would be perfect."
+      ]
+    },
+    {
+      "tag": "watch_features",
+      "patterns": [
+        "Do your watches have water resistance?",
+        "What features do your watches have?",
+        "Can I swim with your watches?",
+        "Do you have watches with GPS?",
+        "Are your watches durable?"
+      ],
+      "responses": [
+        "Yes, many of our watches are water-resistant. You can check the product details for specific information.",
+        "Our watches come with various features including water resistance, GPS, and durable materials.",
+        "We have several models that are suitable for swimming. Please check the product specifications for more details.",
+        "Yes, we offer watches with GPS and other advanced features.",
+        "Our watches are designed with durability in mind, suitable for various activities."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return a watch?",
+        "How do I return an item?",
+        "What if I don't like the watch?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "You can return your watch within 30 days of purchase. Please ensure it is in its original condition.",
+        "To return an item, please contact our customer service for a return authorization and instructions.",
+        "If you're not satisfied with your purchase, you can return it within 30 days for a refund.",
+        "We offer a 30-day return policy. Please keep the watch in its original condition for returns."
+      ]
+    },
+    {
+      "tag": "store_location",
+      "patterns": [
+        "Where is your store located?",
+        "Do you have a physical store?",
+        "Can I visit your store?",
+        "What is your address?",
+        "Where can I find Watcho?"
+      ],
+      "responses": [
+        "We have a physical store located at 123 Watch Street, London.",
+        "Yes, you can visit our store at 123 Watch Street, London.",
+        "Our store address is 123 Watch Street, London. We look forward to your visit!",
+        "You can find us at 123 Watch Street, London."
       ]
     }
   ]
