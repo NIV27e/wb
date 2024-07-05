@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chatbot Deployment with Flask and JavaScript
 
 In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
@@ -50,3 +51,6 @@ In the video we implement the first approach using jinja2 templates within our F
 ## Credits:
 This repo was used for the frontend code:
 https://github.com/hitchcliff/front-end-chatjs
+=======
+# Chatbot Deployment
+>>>>>>> origin/main
